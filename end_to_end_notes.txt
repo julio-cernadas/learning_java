@@ -1,0 +1,7 @@
+
+
+- Java Software Development is split into microservices
+    * these should be "small focused" and "autonomous" units.
+    * the point is to keep them seperate, they will communicate through network calls.
+    * the goal is to be able to change and deploy our application w/out impacting other services!
+-

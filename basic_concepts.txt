@@ -1,0 +1,12 @@
+
+Classes:
+- Every java application must have at least one class, and at least one main method (but not one main per class, jur one main per application).
+- A class has instance variables and methods.
+- A class is used to contruct objects.
+-  Java does manipulate objects by reference, and all object variables are references. However, Java doesn't pass method arguments by reference; it passes them by value.
+- So object variables are references.
+- Primitive vs reference:
+    * Primitive variables are of type -> byte, int, float, double, string, etc.
+    * Reference variables are of type -> Dog, MyClass, Class2, etc.
+        - it basically references the class type you created.
+-
