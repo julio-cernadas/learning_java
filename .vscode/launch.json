@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "helloworld.src.app.App",
+            "projectName": "learning_java_a71daba3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "java_book.src.main.java.com.head_first_java.App",
+            "projectName": "learning_java_a71daba3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dog",
+            "request": "launch",
+            "mainClass": "Dog",
+            "projectName": "learning_java_a71daba3"
+        }
+    ]
+}

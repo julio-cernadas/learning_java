@@ -1,17 +1,15 @@
+
+
 public class Dog {
     int size;
     String breed;
     String name;
 
-    void bark() {
+    public static void bark() {
         System.out.println("RUff!Ruff!");
     }
-}
-
-class DogTestDrive {
     public static void main (String[] args) {
         Dog d = new Dog();
         d.size = 30;
-        d.bark();
     }
 }

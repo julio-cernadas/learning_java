@@ -4,4 +4,15 @@
     * these should be "small focused" and "autonomous" units.
     * the point is to keep them seperate, they will communicate through network calls.
     * the goal is to be able to change and deploy our application w/out impacting other services!
--
+
+- Commonly used structure for projets:
+    * src - contains all your source files, and possibly the following as well (might be far down the folder tree):
+        - resources - contains resources such as properties files
+        - config - everything config related
+    * lib - a folder containing a your libraries, possibly placed in separate subfolders
+    * bin - contains compiled classes
+
+- When desigining the flow of an application, use draw.io like style:
+    * circles - means starting point and ending point
+    * rectangles - are used to represent an action or method
+    * diamonds - are used to represent a decision point.
